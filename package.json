@@ -1,0 +1,32 @@
+{
+  "name": "gulp-concat-multi",
+  "version": "1.0.0",
+  "description": "Concat files to multiple targets.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gakimball/gulp-concat-multi.git"
+  },
+  "keywords": [
+    "gulp"
+  ],
+  "author": "Geoff Kimball <geoff@zurb.com> (http://geoffkimball.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gakimball/gulp-concat-multi/issues"
+  },
+  "homepage": "https://github.com/gakimball/gulp-concat-multi#readme",
+  "devDependencies": {
+    "assert-dir-equal": "^1.0.1",
+    "mocha": "^2.3.4",
+    "rimraf": "^2.5.1",
+    "vinyl-fs": "^2.3.1"
+  },
+  "dependencies": {
+    "gulp-concat": "^2.6.0",
+    "merge-stream": "^1.0.0"
+  }
+}
