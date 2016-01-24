@@ -27,4 +27,19 @@ function scripts() {
 }
 ```
 
+Any options supported by gulp-concat can be passed as the second parameter.
+
+```js
+function scripts() {
+  var opts = { newLine: ';' };
+  
+  concat({
+    'vendor.js': 'js/vendor/**/*.js',
+    'app.js': ['js/lib/**/*.js', 'js/app.js']
+  }, opts)
+    .pipe(uglify())
+    .pipe(gulp.dest('dist/js'));
+}
+```
+
 No source map support at the moment.
