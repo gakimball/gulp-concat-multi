@@ -1,6 +1,6 @@
 {
   "name": "gulp-concat-multi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Gulp plugin to concatenate multiple sets of files",
   "main": "index.js",
   "scripts": {
