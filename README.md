@@ -12,10 +12,10 @@ npm install gulp-concat-multi --save
 
 ## Usage
 
-gulp-multi-concat is used in place of `gulp.src()`. It concatenates your sets of files and then returns a stream of the combined files for you to mess with further.
+gulp-concat-multi is used in place of `gulp.src()`. It concatenates your sets of files and then returns a stream of the combined files for you to mess with further.
 
 ```js
-var concat = require('gulp-multi-concat');
+var concat = require('gulp-concat-multi');
 
 function scripts() {
   concat({
@@ -32,7 +32,7 @@ Any options supported by gulp-concat can be passed as the second parameter.
 ```js
 function scripts() {
   var opts = { newLine: ';' };
-  
+
   concat({
     'vendor.js': 'js/vendor/**/*.js',
     'app.js': ['js/lib/**/*.js', 'js/app.js']
