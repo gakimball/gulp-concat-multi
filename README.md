@@ -1,4 +1,4 @@
-# gulp-concat-mutli
+# gulp-concat-multi
 
 A wrapper around [gulp-concat](https://github.com/contra/gulp-concat) that allows you to define multiple sets of files, which each combine into their own unique file.
 
